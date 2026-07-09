@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Dongli Jin's personal academic homepage."
+    />
+    <title>Dongli Jin | Personal Homepage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="site-title" href="#home">Dongli Jin</a>
+      <nav aria-label="Primary navigation">
+        <a href="#news">News</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#patents">Patents</a>
+        <a href="#contact">Contact</a>
+        <a class="muted-link" href="#" aria-disabled="true">CV</a>
+      </nav>
+    </header>
+
+    <main id="home" class="page">
+      <aside class="sidebar" aria-label="Profile">
+        <img class="portrait" src="assets/profile.jpeg" alt="Portrait of Dongli Jin" />
+        <h2>Dongli Jin</h2>
+        <p class="chinese-name">金东立</p>
+        <p class="role">
+          Undergraduate at Southern University of Science and Technology
+        </p>
+        <p class="affiliation">AISLab @ SUSTech</p>
+        <p class="affiliation">Upcoming visiting student @ UC Berkeley</p>
+
+        <ul class="contact-list">
+          <li>
+            <a href="mailto:12413119@mail.sustech.edu.cn">Email</a>
+          </li>
+          <li>
+            <a href="https://github.com/TonyJin-cyber">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/dongli-jin-663566414/"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </aside>
+
+      <div class="content">
+        <section class="intro" aria-labelledby="intro-title">
+          <h1 id="intro-title">Hi, I am Dongli.</h1>
+          <p>
+            I am a 2024-cohort undergraduate student at Southern University of
+            Science and Technology, working with AISLab at SUSTech and preparing
+            to visit the University of California, Berkeley.
+          </p>
+          <p>
+            My research interests include loco-manipulation, humanoid
+            whole-body control, vision-language-action models, and reinforcement
+            learning, driven by a long-term vision of robots coexisting with
+            people in everyday life.
+          </p>
+        </section>
+
+        <section id="news" aria-labelledby="news-title">
+          <h2 id="news-title">News</h2>
+          <ul class="news-list">
+            <li>
+              <time datetime="2026">2026</time>
+              <span>
+                Upcoming visiting student at the University of California,
+                Berkeley.
+              </span>
+            </li>
+            <li>
+              <time datetime="2026-02">2026.02</time>
+              <span>
+                Patent application accepted by the China National Intellectual
+                Property Administration:
+                <em>Object Distribution Recognition Method, Apparatus, Device,
+                and Medium</em>; lead student inventor.
+              </span>
+            </li>
+            <li>
+              <time datetime="2026-07">2026.07</time>
+              <span>
+                Released
+                <a href="https://github.com/TonyJin-cyber/Gentle_wanderer"
+                  >Gentle Wanderer</a
+                >, a quiet and stable walking pipeline for the Unitree G1
+                humanoid.
+              </span>
+            </li>
+            <li>
+              <time datetime="2025">2025-26</time>
+              <span>
+                Participating in Guangdong Province's "Climbing Program"
+                (攀登计划) through a computer-vision project on tennis-court
+                object distribution recognition and full-court retrieval.
+              </span>
+            </li>
+            <li>
+              <time datetime="2026">TBD</time>
+              <span>More recent updates will be added here.</span>
+            </li>
+          </ul>
+        </section>
+
+        <section id="research" aria-labelledby="research-title">
+          <h2 id="research-title">Research Interests</h2>
+          <ul class="tag-list">
+            <li>Loco-manipulation</li>
+            <li>Humanoid whole-body control</li>
+            <li>Vision-language-action models</li>
+            <li>Reinforcement learning</li>
+            <li>Sim-to-real robot deployment</li>
+          </ul>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-title">
+          <h2 id="projects-title">Projects</h2>
+          <article class="project">
+            <h3>
+              <a href="https://github.com/TonyJin-cyber/Gentle_wanderer"
+                >Gentle Wanderer</a
+              >
+            </h3>
+            <p class="project-meta">Python · Humanoid locomotion · RL deployment</p>
+            <p>
+              A quiet and stable walking pipeline for the Unitree G1 29-DoF
+              humanoid, including reinforcement-learning tasks, reward design,
+              selected policies, MuJoCo evidence, and deployment alignment for
+              real-robot testing.
+            </p>
+          </article>
+
+          <article class="project">
+            <h3>
+              <a href="https://github.com/TonyJin-cyber/CV-for-Tennis-Tracking"
+                >CV for Tennis Tracking</a
+              >
+            </h3>
+            <p class="project-meta">
+              Python · OpenCV · YOLO · Homography · Guangdong Climbing Program
+            </p>
+            <p>
+              A computer-vision pipeline for tennis tracking and court
+              localization, combining camera calibration, homography-based
+              ground-coordinate mapping, YOLO/OpenCV detection, landmark maps,
+              heatmap-based target selection, and full-court object retrieval.
+              This work is connected to my 2025-2026 Guangdong Province
+              "Climbing Program" participation.
+            </p>
+          </article>
+        </section>
+
+        <section id="patents" aria-labelledby="patents-title">
+          <h2 id="patents-title">Patents</h2>
+          <article class="project">
+            <h3>
+              Object Distribution Recognition Method, Apparatus, Device, and
+              Medium
+            </h3>
+            <p class="project-meta">
+              China invention patent application · Application No.
+              202610231670.7 · Filed Feb. 27, 2026
+            </p>
+            <p>
+              Applicant: Southern University of Science and Technology.
+              Dongli Jin is the lead student inventor; the acceptance notice
+              lists the advisor first, followed by Dongli Jin and Di Wang. The
+              patent is related to object distribution recognition, with
+              application context connected to visual perception for
+              tennis-court analysis.
+            </p>
+          </article>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-title">
+          <h2 id="contact-title">Contact</h2>
+          <p>
+            I am open to conversations about humanoid robots, embodied AI,
+            reinforcement learning, and sim-to-real deployment.
+          </p>
+          <p>
+            Email:
+            <a href="mailto:12413119@mail.sustech.edu.cn"
+              >12413119@mail.sustech.edu.cn</a
+            >
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <span>© 2026 Dongli Jin</span>
+      <span>Last updated July 2026</span>
+    </footer>
+  </body>
+</html>
